@@ -11,6 +11,21 @@
     color: white;
 }
 
+.text-size-32 {
+    font-size: 32px;
+}
+
+button{
+    font-size: 20px;
+    height: 56px;
+    background: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0 32px;
+}
+
+
 /* New year banner */
 
 .new-year {
@@ -66,34 +81,56 @@
 }
 
 /* welcome */
-.welcome{
-    background:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Vectorrr.png');
+.welcome {
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     height: 600px;
     width: 1320px;
     margin: 50px auto;
-    
+    margin-top: 130px;
+
 }
-.flex{
+
+.flex {
     display: flex;
     padding: 60px;
     gap: 310px;
 }
-.victor{
+
+.victor {
     margin-top: 0px;
 }
 
-.title{
+.title {
     font-size: 64px;
-    margin-bottom:26px;
+    margin-bottom: 26px;
 }
-.subtitle{
+
+.subtitle {
     font-size: 18px;
-    
+
 }
-.join{
+
+.join {
     font-size: 30px;
     margin-bottom: 48px;
-    
+}
 
+.dade-line {
+    text-align: center;
+}
+
+.time {
+    /* height: 482px;
+    width: 1320px; */
+    margin: 50px auto;
+    border-radius: 16px;
+    padding: 89px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+.fit-box{
+    height: 482px;
+    width: 1320px;
+    margin: 50px auto;
+    margin-top: 130px;
 }
