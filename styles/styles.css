@@ -1,0 +1,99 @@
+/* font color */
+.font-color-red {
+    color: #FF0000;
+}
+
+.font-color-black {
+    color: #070211;
+}
+
+.font-color-white {
+    color: white;
+}
+
+/* New year banner */
+
+.new-year {
+    /* background-image: url('../images/Banner\ Image.png'); */
+    height: 600px;
+    width: 1320px;
+    background-repeat: no-repeat;
+    margin: 50px auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
+
+
+}
+
+.new-year-content {
+    text-align: center;
+    padding: 170px;
+
+}
+
+.new-year-title {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.new-year-subtitle {
+    font-size: 72px;
+    margin-top: 15px;
+
+}
+
+/* New Yer Offer */
+
+.new-year-offer {
+    text-align: center;
+
+}
+
+.flat-offer {
+    font-size: 82px;
+    margin-top: 120px;
+
+}
+
+.deals {
+    font-size: 24px;
+    margin-top: 48px;
+}
+
+.categories {
+    font-size: 48px;
+    margin-top: 16px;
+}
+
+/* welcome */
+.welcome{
+    background:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1320px;
+    margin: 50px auto;
+    
+}
+.flex{
+    display: flex;
+    padding: 60px;
+    gap: 310px;
+}
+.victor{
+    margin-top: 0px;
+}
+
+.title{
+    font-size: 64px;
+    margin-bottom:26px;
+}
+.subtitle{
+    font-size: 18px;
+    
+}
+.join{
+    font-size: 30px;
+    margin-bottom: 48px;
+    
+
+}
