@@ -177,10 +177,17 @@ button {
 }
 
 .middle {
-    width: 33%;
-    height: 463px;
-    box-sizing: border-box;
+    width: 37%;
+    height: 410px;
+    box-sizing: content-box;
     border: 15px solid rgb(255, 0, 0);
+    position: relative;
+    border-radius: 50%;
+}
+.middle img{
+    position: absolute;
+    bottom: 5%;
+    left: 3.5%;
 }
 
 .middle img {
