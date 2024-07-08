@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: Merriweather;
+}
+
 /* font color */
 .font-color-red {
     color: #FF0000;
@@ -15,7 +21,7 @@
     font-size: 32px;
 }
 
-button{
+button {
     font-size: 20px;
     height: 56px;
     background: #FF0000;
@@ -123,14 +129,81 @@ button{
 .time {
     /* height: 482px;
     width: 1320px; */
-    margin: 50px auto;
+    /* margin: 50px auto; */
     border-radius: 16px;
     padding: 89px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
 }
-.fit-box{
+
+.fit-box {
     height: 482px;
     width: 1320px;
     margin: 50px auto;
     margin-top: 130px;
 }
+
+/* offer offer-container section */
+
+.offer-container {
+    width: 1320px;
+    height: 463px;
+   
+    margin: 0 auto;
+
+
+}
+
+.offer-subcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 40px;
+}
+
+.leftside {
+    width: 33%;
+    height: 463px;
+    
+}
+
+.middle {
+   
+    width: 33%;
+    height: 463px;
+   
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+}
+
+.middle img {
+    margin: 5px auto;
+}
+
+.rightside {
+    width: 33%;
+    height: 463px;
+    
+}
+.rightside h1 {
+    font-size: 48px;
+}
+.leftside h4{
+
+    font-size: 24px;
+   
+    
+}
+.leftside h1{
+
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.leftside p .rightsid p  {
+
+    color: #07021199; 
+   
+}
+
+
